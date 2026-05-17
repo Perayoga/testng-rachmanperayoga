@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="HR Test Suite">
+
+    <test name="Karyawan dan Divisi Test">
+
+        <classes>
+
+            <class name="hr.KaryawanTest"/>
+            <class name="hr.DivisiTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
